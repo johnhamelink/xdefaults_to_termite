@@ -1,4 +1,9 @@
-xdefaults_to_termite
-====================
+#xdefaults_to_termite
 
 Generate termite colour schemes using xdefaults configs
+
+##Usage
+
+Run the script like this to append the colourscheme to the end of your termite config:
+
+    $ ./urxvt_to_termite.rb ./Xdefaults >> ~/.config/termite/config
