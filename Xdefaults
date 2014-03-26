@@ -1,0 +1,67 @@
+[jarvis@watson ~]$ cat .Xdefaults
+! Xft settings ---------------------------------------------------------------
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+!-------------------------------------------------------------------------------
+!
+! U R X V T - Settings
+!
+URxvt*geometry:         100x35
+URxvt*borderLess:       false
+URxvt*depth:          32
+URxvt*scrollBar_right:        true
+URxvt*font:         xft:terminus-9
+URxvt*cursorBlink:        true
+URxvt*cursorUnderline:        true
+URxvt*cursorColor: #93a1a1
+URxvt*scrollColor:        #111111
+URxvt*perl-ext-common:        default,clipboard,tabbed,matcher
+URxvt.scrollBar:        off
+#URxvt.iconFile:          ~/icons/Terminal.svg
+URxvt.tabbed.tabbar-fg:       7
+URxvt.tabbed.tabbar-bg:       0
+URxvt.tabbed.tab-fg:          4
+URxvt.tabbed.tab-bg:          0 
+URxvt*termName:         rxvt-256color
+URxvt.urlLauncher:        /usr/bin/firefox-aurora
+URxvt.matcher.button:       1
+
+!---------------------------------------------------------------------------------
+!
+! U R X V T - Colors
+!
+!---------------------------------------------------------------------------------
+
+
+!black
+URxvt.color0:  #000000
+URxvt.color8:  #2B2B2B
+!red
+URxvt.color1:  #A5372E
+URxvt.color9:  #E06C5C 
+!green
+URxvt.color2:  #4A663C 
+URxvt.color10: #7B996C
+!yellow
+URxvt.color3:  #7C5618
+URxvt.color11: #B38849
+!blue
+URxvt.color4:  #566060
+URxvt.color12: #889393
+!magenta
+URxvt.color5:  #8E4948
+URxvt.color13: #C67C78
+!cyan
+URxvt.color6:  #6D5B42
+URxvt.color14: #A28D73
+!white
+URxvt.color7:  #8D8D8D
+URxvt.color15: #C6C6C6
+
+urxvt.background: #1c1c1c
+urxvt.foreground: 15
